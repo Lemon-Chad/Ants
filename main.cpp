@@ -210,6 +210,11 @@ class Command {
                 pushStack(popStack() / popStack());
             else if (name == "m")
                 pushStack(popStack() * popStack());
+            else if (name == "b") {
+                int x = popStack();
+                pushStack(x);
+                pushStack(x);
+            }
             else if (name == "t") {
                 stringstream a(args[0]);
                 int x;
