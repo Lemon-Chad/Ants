@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jackson/CLionProjects/Slime/main.cpp
+iostream
+-
+vector
+-
+cmath
+-
+regex
+-
+string
+-
+fstream
+-
+
