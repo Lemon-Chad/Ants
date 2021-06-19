@@ -352,7 +352,7 @@ string compile(const string &text) {
 
 int main() {
     ifstream inFile;
-    inFile.open("/home/jackson/CLionProjects/Slime/ants.nt");
+    inFile.open("yourinputfiledirectory");
     stringstream strStream;
     strStream << inFile.rdbuf();
     string text = strStream.str();
